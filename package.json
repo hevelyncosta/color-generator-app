@@ -1,5 +1,4 @@
 {
-  "homepage": "https://hevelyncosta.github.io/color-generator-app",
   "name": "color-generator-app",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "pre-deploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "pre-deploy": "npm run build"
   },
   "dependencies": {
     "react": "^18.2.0",
